@@ -11,7 +11,7 @@ async function runTests() {
     .build();
 
   try {
-    await driver.get("http://localhost:8081");
+    await driver.get("http://18.212.65.223:8081/");
 
     // ✅ Test 1: Check main heading (e.g., "Select Difficulty Level")
     const heading = await driver.findElement(By.css("div")).getText();
