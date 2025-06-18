@@ -150,7 +150,7 @@ async function runTests() {
       "✅ Test 10 Passed: Game over modal appears after clicking all cards"
     );
 
-    console.log("😸🙌🏻 All tests passed! 🎉");
+    console.log("😸 All tests passed! 🎉");
   } catch (err) {
     console.error("❌ Test Failed:", err.message);
   } finally {
